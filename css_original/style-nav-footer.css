@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+	padding-top: 25px;
+}
+
+/* nav */
+nav{
+	color: white;
+	background: linear-gradient(to right,#422479,  #543194, 
+    #422479);  
+}
+.color-white{
+	color: white;
+}
+
+/* title */
+.heading{
+	text-align: center;
+}
+.waviy {
+    position: relative;
+}
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
+}
+
+
+
+/* footer */
+footer{
+	background-color:  #533190;
+	padding-bottom: 8px;
+	color: white;
+	padding-bottom: 15px;
+}
+footer a{
+	color: white;
+}
+
+footer .padding1{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.text-aling i{
+	margin-left: 8px;
+	margin-top: 20px;
+} 
+

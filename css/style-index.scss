@@ -1,0 +1,67 @@
+@import "./partials/maps";
+.title-word {
+	animation: color-animation 4s linear infinite;
+}
+.title-word-1 {
+	--color-1: #a18dce;
+	--color-2: #7e0f91;
+	--color-3: #bd82c3;
+}
+.title-word-2 {
+	--color-1: #6d54a7;
+	--color-2: #b5179e;
+	--color-3: #5c3d60;
+}
+.title-word-3 {
+	--color-1: #6f628d;
+	--color-2: #9616a4;
+	--color-3: #5c0965;
+}
+
+@keyframes color-animation{
+	0% {
+		color: var(--color-1);
+	}
+	32% {
+		color: var(--color-1);
+	}
+	33% {
+		color: var(--color-2);
+	}
+	65% {
+		color: var(--color-2);
+	}
+	66% {
+		color: var(--color-3);
+	}
+	99% {
+		color: var(--color-3);
+	}
+	100% {
+		color: var(--color-1);
+	}
+}
+.title {
+	font-weight: map-get($estilos, fw);
+	font-size: map-get($estilos, size);
+
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.card {
+	border-radius: 20px; 
+	img{
+	border-radius: 20px;
+	}
+
+}
+.ml6{
+	font-weight: 600;
+	
+	.text-wrapper {
+	padding-top: 0.2em;
+	overflow: hidden;}
+}

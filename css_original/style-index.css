@@ -1,0 +1,64 @@
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #7209b7;
+  --color-2: #7e0f91;
+  --color-3: #9d00b8;
+}
+
+.title-word-2 {
+  --color-1: #560bad;
+  --color-2: #b5179e;
+  --color-3: #3a0ca3;
+}
+
+
+.title-word-3 {
+  --color-1: #3f37c9;
+  --color-2: #560bad;
+  --color-3: #32063a;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+.title {
+  font-weight: 200;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card img{
+  border-radius: 20px;
+}
+.ml6 {
+  font-weight: 900;
+  font-size: 3.3em;
+}
+.ml6 .text-wrapper {
+  padding-top: 0.2em;
+  overflow: hidden;
+}
+
+
+/* nuevo */
+
+body {
+  background: #e4e3e3;
+}

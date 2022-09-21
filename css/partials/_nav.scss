@@ -1,0 +1,14 @@
+/* nav */
+@import "./variables.scss";
+nav {
+    color: $w;
+    background: linear-gradient(to right,#a18dce, #a18dce, #bd82c3);
+    .color-white {
+    color: $n;
+    }
+    font-weight: bold;
+    .fa-brands{
+        color: $n;
+    }
+}
+

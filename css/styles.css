@@ -1,0 +1,31 @@
+/* nav */
+nav {
+  color: white;
+  background: linear-gradient(to right, #a18dce, #a18dce, #bd82c3);
+  font-weight: bold;
+}
+nav .color-white {
+  color: black;
+}
+nav .fa-brands {
+  color: black;
+}
+
+/* footer */
+footer {
+  background: linear-gradient(to right, #a18dce, #a18dce, #bd82c3);
+  padding-bottom: 8px;
+  color: black;
+  padding-bottom: 15px;
+}
+footer a {
+  color: black;
+}
+footer .padding1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .text-aling i {
+  margin-left: 8px;
+  margin-top: 20px;
+}/*# sourceMappingURL=styles.css.map */

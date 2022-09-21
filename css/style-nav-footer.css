@@ -1,0 +1,71 @@
+/* nav */
+nav {
+  color: white;
+  background: linear-gradient(to right, #a18dce, #a18dce, #bd82c3);
+  font-weight: bold;
+}
+nav .color-white {
+  color: black;
+}
+nav .fa-brands {
+  color: black;
+}
+
+/* footer */
+footer {
+  background: linear-gradient(to right, #a18dce, #a18dce, #bd82c3);
+  padding-bottom: 8px;
+  color: black;
+  padding-bottom: 15px;
+}
+footer a {
+  color: black;
+}
+footer .padding1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .text-aling i {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding-top: 25px;
+}
+
+/* title */
+.heading {
+  text-align: center;
+}
+.heading .waviy {
+  position: relative;
+}
+.heading .waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  text-transform: uppercase;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+
+@-webkit-keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}/*# sourceMappingURL=style-nav-footer.css.map */

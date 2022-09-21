@@ -1,0 +1,32 @@
+.card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0;
+
+    h5 {
+        color: #7b6d99;
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    span {
+        font-size: 18px;
+        color: #666666;
+    }
+
+    .card-img-top {
+
+        border-radius: 50%;
+        margin: 15px auto 0;
+        box-shadow: 0 8px 20px -4px #95abbb;
+        height:  200px;
+        width: auto;
+
+
+    }
+
+
+}
